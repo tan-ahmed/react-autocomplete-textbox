@@ -1,0 +1,35 @@
+.auto-complete{
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.auto-complete input{
+    width: 100%;
+    border: none;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    outline: none;
+}
+
+.auto-complete ul{
+    text-align: left;
+}
+
+.auto-complete ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    border-top: 1px solid grey;
+    padding: 0;
+}
+
+.auto-complete li{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.auto-complete li:hover{
+    background-color: grey;
+    color: white;
+}
